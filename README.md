@@ -1,6 +1,14 @@
 # fidelityapi
 Python mini-library for interfacing with the undocumented Fidelity FastQuote API
 
+Things to note:
+
+-The UUID and callback parameters are a joke. Fidelity doesn't validate them, just checks that they are submitted.
+
+-Still, don't touch them (Or the product id param)
+
+-Rate limits basically don't exist either so you can use this for fetching real-time data.
+
 # Usage:
 ```python
 from fidelityapi import *
