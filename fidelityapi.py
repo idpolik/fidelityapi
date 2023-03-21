@@ -1,7 +1,5 @@
-import urllib.parse, re, json, requests
+import urllib.parse, json, requests
 from datetime import datetime
-from typing import Optional
-
 
 class FidelityAPI:
     def __init__(self, symbol: str, start_date: datetime, end_date: datetime, interval: int = 5,
