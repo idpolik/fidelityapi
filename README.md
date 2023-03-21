@@ -1,7 +1,7 @@
 # fidelityapi
 Python mini-library for interfacing with the undocumented Fidelity FastQuote API
 
-#Usage:
+# Usage:
 ```
 from fidelityapi import *
 symbol = "AAPL"
@@ -12,7 +12,7 @@ api = FidelityAPI(symbol, start_date, end_date)
 
 print(api.get_bar_record())
 ```
-#Features
+# Features
 
 Create a FidelityAPI object :
 ```
@@ -56,7 +56,7 @@ Get the raw response JSON as a dictionary :
 raw_data = fidelity.get_data()
 ```
 
-#Parameters
+# Parameters
 
 symbol (required): A string representing the stock symbol.
 start_date (required): A datetime object representing the start date of the historical data to retrieve.
