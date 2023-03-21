@@ -59,15 +59,29 @@ raw_data = fidelity.get_data()
 # Parameters
 
 symbol (required): A string representing the stock symbol.
+
 start_date (required): A datetime object representing the start date of the historical data to retrieve.
+
 end_date (required): A datetime object representing the end date of the historical data to retrieve.
-interval (optional): An integer representing the number of minutes in each bar record. Defaults to 5, max 60. Can also be represented as 'WEEKLY', 'DAILY', 'QUARTERLY', 'ANNUAL'
+
+interval (optional): An integer representing the number of minutes in each bar record. Defaults to 5, max 60. Can also be represented as 'WEEKLY', 'DAILY', 
+'QUARTERLY', 'ANNUAL'
+
 extended_hours (optional): A boolean indicating whether to include extended hours trading data. Defaults to False. 
+
 corp_actions (optional): A boolean indicating whether to include corporate actions data. Defaults to True.
+
 num_days (optional): An integer representing the number of days to retrieve data for. Defaults to 2.
+
 use_cache (optional): A boolean indicating whether to use cached data. Defaults to True.
+
 product_id (optional): A string representing the product ID. Defaults to "oce".
+
 callback (optional): A string representing the callback function name. Defaults to "Fidelity". 
+
 uuid (optional): A string representing the UUID. Defaults to "Fidelity".
+
 timestamp (optional): A string representing the timestamp. Defaults to "start".
+
 quote_type (optional): A string representing the quote type. Defaults to "R".
+
