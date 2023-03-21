@@ -15,44 +15,44 @@ print(api.get_bar_record())
 # Features
 
 Create a FidelityAPI object :
-```
+```python
 fidelity = FidelityAPI(symbol, start_date, end_date)
 ```
 
 Get a dictionary of Bar Records :
-```
+```python
 bar_records = fidelity.get_bar_record()
 ```
 Get the day open :
-```
+```python
 day_open = fidelity.get_day_open()
 ```
 Get the day low :
-```
+```python
 day_low = fidelity.get_day_low()
 ```
 Get the day high :
-```
+```python
 day_high = fidelity.get_day_high()
 ```
 Get the percent change :
-```
+```python
 percent_change = fidelity.get_percent_change()
 ```
 Get the dollar change :
-```
+```python
 dollar_change = fidelity.get_dollar_change()
 ```
 Get the last price :
-```
+```python
 last_price = fidelity.get_last_price()
 ```
 Get the last close :
-```
+```python
 last_close = fidelity.get_last_close()
 ```
 Get the raw response JSON as a dictionary :
-```
+```python
 raw_data = fidelity.get_data()
 ```
 
