@@ -2,7 +2,7 @@
 Python mini-library for interfacing with the undocumented Fidelity FastQuote API
 
 # Usage:
-```
+```python
 from fidelityapi import *
 symbol = "AAPL"
 start_date = datetime(2022, 1, 1)
